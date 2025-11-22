@@ -38,7 +38,7 @@
 
         /* NAVIGATION BAR */
         .navbar {
-            background-color: #3e302a;
+            background-color: #264972;
             color: white;
             padding: 20px 40px;
             display: flex;
@@ -167,7 +167,10 @@
 
             <!-- Dynamic Content -->
             <div id="tabContent" style="font-size:20px;">
-                Welcome to Elevare!  
+                <h1>Welcome to Elevare!</h1> 
+                <P>We are a student-led stream dedicated to exploring how social bias and stigma affect creativity, especially in the world of arts. Our goal is to uplift voices, challenge stereotypes, and inspire students to express themselves freely.
+Join us as we uncover stories, share perspectives, and celebrate creativity without limits.</P>
+                <img src="https://i.imgur.com/3WmSoKT.jpeg" alt="Elevare Logo" width="500" height="600">
             </div>
 
         </div>
@@ -177,7 +180,7 @@
     <div class="pull-tab" id="pullTab">
         <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t1.15752-9/588219287_836301865763446_6359924068664242518_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGjJUVc2kVTZUwPjEc1c4qDfF3u0M10bzp8Xe7QzXRvOhDZWH3B4LZS0FYCK80TlL8lidRN_iVMMmXmu98-6pDv&_nc_ohc=3OwP-BoVxXYQ7kNvwHLO8Am&_nc_oc=AdkOhKEZPjz1DQJzC_LPaxwRlqlVOD1zUTZ9dPpin06VsLDSXhk2acfhh86720iqdz-45VpCrMReHY_Iq-W0sB_h&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl4-1.fna&oh=03_Q7cD3wGOAYmi9fjJjLADk9PbKLmffxaCyQEFbq3hpsMuZXOycA&oe=6947E411" class="pull-img"> <!-- CHANGE THIS TO YOUR IMAGE -->
         <div class="hinge"></div>
-        <p>Pull Down</p>
+        <p>Click Me!</p>
     </div>
 
     <script>
@@ -209,14 +212,25 @@ buttons.forEach(btn => {
         tabContent.innerHTML = `
             Hi hii! We're Group 5, the team behind <strong>Mind Canvas</strong> or <strong>Canvas in Mind</strong> , our stream where creativity meets conversation. 
             Along with our awesome members Angeles, Madrigal, Nalangan, Omagtang, Perez, and Razon, we aim to explore how art can help break mental health stigma and inspire self-expression.
-        `;
+        <div class="about-container">
+                <img src="https://i.imgur.com/3WmSoKT.jpeg" class="about-img">
+                <div class="about-text">
+                    <h2>Elevare</h2>
+                    <p>
+                        Derived from the word "Elevate" we aim to Elevate creatives like us that are in need.
+                    </p>
+                </div>
+            </div>
+
+        
+            `;
         break;
 
     case "outline":
         tabContent.innerHTML = `
             <h2>Stream Concept</h2>
             <p>Our stream, <strong>"Canvas in Mind"</strong>, dives into the connection between creativity and mental health. 
-            We feature live discussions, art showcases, and creative sessions using digital art—where artists openly share their mental health journeys.</p>
+            We feature live discussions, art showcases, and creative sessions using digital art where artists openly share their mental health journeys.</p>
 
             <h2>Goals (SMART)</h2>
             <ul>
@@ -224,14 +238,14 @@ buttons.forEach(btn => {
                 <li><strong>Measurable:</strong> Reach 50 total views and 10 active followers within a month.</li>
                 <li><strong>Achievable:</strong> Stream once a week for 1 hour or less, featuring at least one guest per week.</li>
                 <li><strong>Relevant:</strong> Support our thesis goal of spreading awareness about mental health stigma and how creative expression helps reduce it.</li>
-                <li><strong>Time-Bound:</strong> Launch by [insert date] and track progress weekly for 1 month.</li>
+                <li><strong>Time-Bound:</strong> Launch the stream and track progress weekly for 1 month.</li>
             </ul>
 
             <h2>Stream Outline</h2>
             <table border="1" cellpadding="5">
                 <tr><th>Time</th><th>Topic</th><th>Activity</th><th>Duration</th></tr>
                 <tr><td>1:30 PM</td><td>Introduction of Members</td><td>Show PNGs and online names</td><td>5 min</td></tr>
-                <tr><td>1:35 PM</td><td>Introduction of the Game</td><td>Garlic Phone rules explanation</td><td>5 min</td></tr>
+                <tr><td>1:35 PM</td><td>Introduction of the Game</td><td>Gartic Phone rules explanation</td><td>5 min</td></tr>
                 <tr><td>2:00 PM</td><td>Start of the Game</td><td>Game session begins</td><td>25 min</td></tr>
                 <tr><td>2:05–2:10 PM</td><td>Commercial Break</td><td>Short break</td><td>5–10 min</td></tr>
                 <tr><td>2:35 PM</td><td>Continuation of the Game</td><td>Game continues</td><td>25 min</td></tr>
@@ -245,20 +259,58 @@ buttons.forEach(btn => {
     case "promo":
         tabContent.innerHTML = `
             <h2>Promotion</h2>
-            <p>🎨✨ <strong>COMING SOON!</strong> ✨🎨</p>
-            <p>Join us on <strong>MindCanvas</strong>, a live stream where creativity meets mental health conversations! Paint, play, and share your thoughts with us every week. 🌈💭</p>
+            <p>Join us on <strong>MindCanvas</strong>, a live stream where creativity meets mental health conversations! Paint, play, and share your thoughts with us.</p>
             <p>Follow us for updates, sneak peeks, and guest announcements! #MindCanvas #ArtMeetsMind #CreativeHealing</p>
+            <p> <strong>To promote Elevare</strong>, our student-led livestream, we will focus mainly on Instagram as our primary platform. Our goal is to build awareness, hype, and consistent engagement for every stream.
+
+ <div class="about-container">
+                <img src="https://i.pinimg.com/736x/a1/a4/d4/a1a4d4e6a6d4b8b24e1965db9a041462.jpg" class="about-img">
+                <div class="about-text">
+                    <h2>How We Will Promote Elevare</h2>
+                    <p>Instagram Posts – Announcements, posters, and episode teasers
+
+<p>Instagram Stories – Countdowns, polls, and behind-the-scenes clips
+
+<p>Instagram Reels – Short edits and highlights to attract more viewers
+
+<p>Stream Highlights – Funny or memorable moments reposted after every episode
+
+<p>Story Reminders – “We’re live!” updates to encourage real-time viewers
+
+<p>Brand Consistency – Using the same colors, logo, and layout style across all posts
+
+Goal
+                    </p>
+                </div>
+            </div>
+
+<p> To reach more students, create excitement, and steadily grow our audience by using eye-catching visuals and interactive features on Instagram. </p>
         `;
         break;
 
+
+
     case "about":
         tabContent.innerHTML = `
-            <div class="about-container">
+        
+        <p> <strong>Elevare is a creative initiative built by students who believe that every voice deserves space.</strong> <p> Our project focuses on how bias, judgment, and stigma can limit the artistic expression of young people.
+<p> <strong>Through our livestream discussions, activities, and features, we aim to </strong>
+
+<p> Break down social pressures that hold artists back
+
+Encourage students to express themselves with confidence
+
+Create a supportive space where creativity can grow
+
+Highlight real experiences and perspectives from the youth</p>
+        
+<h1> Introducing The Team...!</h1>
+        <div class="about-container">
                 <img src="https://i.imgur.com/joC02y6.jpeg" class="about-img">
                 <div class="about-text">
                     <h2>Randross Blake Angeles</h2>
                     <p>
-                        Hi! I’m Blake! or Chino. I like music, the color blue, snacks, and occasionally have ideas that are actually good heh (¬‿¬)
+                        Hi! I’m Blake or Chino! I like music, the color blue, snacks, and occasionally have ideas that are actually good heh (¬‿¬)
                     </p>
                 </div>
             </div>
@@ -266,7 +318,7 @@ buttons.forEach(btn => {
             <div class="about-container">
                 <img src="https://i.imgur.com/n8PmNBj.jpeg" class="about-img">
                 <div class="about-text">
-                    <h2>Miles Lerean Madrigal</h2>
+                    <h2>Mile Lerean Madrigal</h2>
                     <p>
                         Hi i'm Miles! First of all, I am Miles, Second of all, You're not miles! Third of all yuwanbemilesbutyukentbemilesbecausiammiles
                     </p>
@@ -327,3 +379,5 @@ buttons.forEach(btn => {
 
 
 
+
+s
