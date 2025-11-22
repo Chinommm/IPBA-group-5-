@@ -8,6 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet">
 
     <style>
+
+#tabContent img {
+    display: block;
+    margin: 20px auto;
+}
+
+
       .about-container {
     display: flex;
     gap: 20px;
@@ -137,6 +144,40 @@
         .inner-tabs .active {
             background-color: #d5efff;
         }
+
+        @media (max-width: 600px) {
+
+    .whiteboard {
+        width: 95%;
+        height: 450px;
+    }
+
+    .inner-tabs {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 140px;
+    }
+
+    .about-text {
+        font-size: 18px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
     </style>
 </head>
 
@@ -168,8 +209,9 @@
             <!-- Dynamic Content -->
             <div id="tabContent" style="font-size:20px;">
                 <h1>Welcome to Elevare!</h1> 
-                <P>We are a student-led stream dedicated to exploring how social bias and stigma affect creativity, especially in the world of arts. Our goal is to uplift voices, challenge stereotypes, and inspire students to express themselves freely.
-Join us as we uncover stories, share perspectives, and celebrate creativity without limits.</P>
+                <P>Elevare is a student-led movement that uplifts creativity by breaking the barriers of
+        <strong>bias, stigma, and judgment</strong>.  
+        We believe every student has a voice and every voice deserves space to create, express, and inspire.</P>
                 <img src="https://i.imgur.com/3WmSoKT.jpeg" alt="Elevare Logo" width="500" height="600">
             </div>
 
@@ -212,15 +254,16 @@ buttons.forEach(btn => {
         tabContent.innerHTML = `
             Hi hii! We're Group 5, the team behind <strong>Mind Canvas</strong> or <strong>Canvas in Mind</strong> , our stream where creativity meets conversation. 
             Along with our awesome members Angeles, Madrigal, Nalangan, Omagtang, Perez, and Razon, we aim to explore how art can help break mental health stigma and inspire self-expression.
-        <div class="about-container">
-                <img src="https://i.imgur.com/3WmSoKT.jpeg" class="about-img">
-                <div class="about-text">
-                    <h2>Elevare</h2>
-                    <p>
-                        Derived from the word "Elevate" we aim to Elevate creatives like us that are in need.
-                    </p>
-                </div>
-            </div>
+       <div class="about-container">
+    <img src="https://i.imgur.com/3WmSoKT.jpeg" class="about-img">
+    <div class="about-text">
+        <h2>Our Purpose</h2>
+        <p>
+            Instead of limiting creativity, we aim to elevate it.  
+            Elevare stands for growth, support, and courage a place where ideas can rise without fear.
+        </p>
+    </div>
+</div>
 
         
             `;
